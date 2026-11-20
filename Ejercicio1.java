@@ -1,0 +1,28 @@
+import java.util.Scanner;
+ /**
+ * @author Darwin Alexis Ojeda Tamayo
+ */
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String nombre;
+        int edad;
+        String carrera;
+        double estatura;
+        System.out.print("Ingrese su nombre: ");
+        nombre = sc.nextLine();
+        System.out.print("Ingrese su edad: ");
+        edad = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Ingrese su carrera: ");
+        carrera = sc.nextLine();
+        System.out.print("Ingrese su estatura: ");
+        estatura = sc.nextDouble();
+        System.out.println("\nDATOS INGRESADOS");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Carrera: " + carrera);
+        System.out.println("Estatura: " + estatura);
+        sc.close();
+    }
+}
